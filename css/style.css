@@ -321,7 +321,6 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: #f5f6f6;
      padding: 198px 0px 90px 0px;
 }
 
@@ -361,7 +360,6 @@ button {
      width: 62px;
      height: 60px;
      background: transparent;
-     border: #1a1a1a solid 2px;
      opacity: 1;
      font-size: 30px;
      color: #131215;
@@ -370,12 +368,10 @@ button {
 }
 
 #banner1 .carousel-control-prev:hover,
-#banner1 .carousel-control-next:hover,
-#banner1 .carousel-control-prev:focus,
-#banner1 .carousel-control-next:focus {
+#banner1 .carousel-control-next:hover {
      background: transparent;
-     border: #02b119 solid 2px;
      color: #02b119;
+     transform: scale(1.2);
 }
 
 #banner1 a.carousel-control-prev {
